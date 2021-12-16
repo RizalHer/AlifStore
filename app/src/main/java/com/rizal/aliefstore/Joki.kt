@@ -34,7 +34,7 @@ class Joki : AppCompatActivity() {
             val pesan6 = paket.getText().toString()
 
 
-            val semuapesan ="Nama :"+ pesan1 + "\n" + "Id dan Server :"+ pesan2 + "\n" + "Nick Ml :"+ pesan3 + "\n" +"Rank Awal :"+ pesan4 + "\n" + "per Bintamg :"+ pesan5 + "\n"+ "Paketan :"+ pesan6 + "\n"
+            val semuapesan ="Nama :"+ pesan1 + "\n" + "Id dan Server :"+ pesan2 + "\n" + "Nick Ml :"+ pesan3 + "\n" +"Rank Awal :"+ pesan4 + "\n" + "per Bintang :"+ pesan5 + "\n"+ "Paketan :"+ pesan6 + "\n"
 
             val intent  = Intent(Intent.ACTION_SEND)
             intent.setType("text/plain")

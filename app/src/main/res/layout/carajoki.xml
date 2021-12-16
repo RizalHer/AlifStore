@@ -20,7 +20,10 @@
         android:layout_height="wrap_content"
         android:text="1. buka aplikasi"
         android:textSize="20sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -28,7 +31,6 @@
         android:text="2. Pilih Button Joki untuk masuk ke form pemesanan"
         android:textSize="20sp"
         android:gravity="center"
-        android:layout_marginTop="150dp"
         android:textColor="@color/white"
         android:textStyle="bold"/>
     <TextView

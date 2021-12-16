@@ -36,7 +36,7 @@ class Ff : AppCompatActivity() {
             val intent  = Intent(Intent.ACTION_SEND)
             intent.setType("text/plain")
             intent.putExtra(Intent.EXTRA_TEXT, semuapesan)
-            intent.putExtra("jid", "085258022025" + "@s.whatsapp.net")
+            intent.putExtra("jid", "085258022025" + "https://api.whatsapp.com/send/?phone=6285258022025&text&app_absent=0")
             intent.setPackage("com.whatsapp")
             startActivity(intent)
         }
