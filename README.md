@@ -1,2 +1,0 @@
-# AlifStore
-jual Diamond

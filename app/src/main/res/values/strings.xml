@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AliefStore</string>
+    <string name="judul">Alief Store Gaming</string>
+    <string name="ml">Top Up Mobile Legends</string>
+    <string name="top_up">Top Up Diamond dan Uc Game</string>
+    <string name="joki">Joki Mobile Legends</string>
+    <string name="ff">Top up Diamond Free Fire</string>
+    <string name="pubg">Top Up Uc Pubg</string>
+    <string name="tutorial">Cara pemesanan</string>
+    <string name="nama">Nama :</string>
+    <string name="id_server">Id Dan Server :</string>
+    <string name="nick_ml">Nick Ml :</string>
+    <string name="nick_ff">Nick FF :</string>
+    <string name="nick_pubg">Nick Pubg :</string>
+    <string name="diamond">Diamond :</string>
+    <string name="uc">UC :</string>
+    <string name="sisa">Sisa Diamond atau UC :</string>
+    <string name="help">Help</string>
+    <string name="bintang">Per Bintang :</string>
+    <string name="paket">Paketan :</string>
+    <string name="rank">Rank Awal :</string>
+    <string name="masalah">Masalah</string>
+    <string name="penjoki">daftar penjoki</string>
+</resources>

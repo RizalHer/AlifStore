@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/top_up"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:id="@+id/btn_top_up"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/joki"
+        android:id="@+id/btn_joki"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/tutorial"
+        android:id="@+id/btn_tutorial"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/help"
+        android:id="@+id/btn_help"
+        android:backgroundTint="@color/teal_700"/>
+
+</LinearLayout>
