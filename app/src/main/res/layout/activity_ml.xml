@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/nama"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="25sp"
         android:id="@+id/nama"
         android:inputType="textPersonName"/>
@@ -25,28 +26,32 @@
         android:hint="@string/id_server"
         android:textStyle="bold"
         android:textSize="25sp"
-        android:id="@+id/id_server" />
+        android:id="@+id/id_server"
+        android:textColor="@color/white"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/nick_ml"
         android:textStyle="bold"
         android:textSize="25sp"
-        android:id="@+id/nick_ml" />
+        android:id="@+id/nick_ml"
+        android:textColor="@color/white"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/diamond"
         android:textStyle="bold"
         android:textSize="25sp"
-        android:id="@+id/diamond" />
+        android:id="@+id/diamond"
+        android:textColor="@color/white"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/sisa"
         android:textStyle="bold"
         android:textSize="25sp"
-        android:id="@+id/sisa" />
+        android:id="@+id/sisa"
+        android:textColor="@color/white"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -55,6 +60,6 @@
         android:text="KIRIM"
         android:layout_gravity="center"
         android:textColor="@color/black"
-        android:id="@+id/kirim"/>
+        android:id="@+id/kirim" />
 
 </LinearLayout>

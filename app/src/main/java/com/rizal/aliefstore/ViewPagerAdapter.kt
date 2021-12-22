@@ -6,11 +6,12 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity){
-    private val JUMLAH_MENU = 2
+    private val JUMLAH_MENU = 3
     override fun createFragment(position: Int): Fragment {
         when (position){
             0 ->  {return caratopup()}
             1 -> {return  carajoki()}
+            2 -> {return penjoki()}
             else -> (return caratopup())
 
         }

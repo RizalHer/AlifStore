@@ -11,21 +11,19 @@ import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.penjoki.*
 
 class penjoki : Fragment() {
-    lateinit var listTeman:ArrayList<MyJoki>
 
-    private fun simulasiDataTeman(){
-        listTeman= ArrayList()
-        listTeman.add(
-            MyJoki("Hilma Nadhila Ardani", "Perempuan", "hilmanadhila33@gmail.com", "087675438911",
-                "Blitar")
-        )
-        listTeman.add(MyJoki("Ajeng Ayu Pramesti", "Perempuan", "ajengayup@gmail.com", "085616483210","Blitar"))
-        listTeman.add(MyJoki("Arif Setiawan", "Laki-Laki", "arif1140@gmail.com", "089817651874", "Kediri"))
+    lateinit var listjoki:ArrayList<MyJoki>
+
+    private fun simulasiDataJoki(){
+        listjoki= ArrayList()
+        listjoki.add(MyJoki("Ergi", "ergi9191@gmail.com", "Mage", "Mhitic"))
+        listjoki.add(MyJoki("Alief","Alief71@gmail.com", "Fighter","Legend"))
+        listjoki.add(MyJoki("Bobby", "Bobbyp01@gmail.com","Jungler, Marksman", "Legend"))
     }
 
-    private fun tampilTeman(){
+    private fun tampilJoki(){
         rv_joki.layoutManager=LinearLayoutManager(activity)
-        rv_joki.adapter=JokiAdapter(requireActivity(), listTeman)
+        rv_joki.adapter=JokiAdapter(requireActivity(), listjoki)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,8 +42,8 @@ class penjoki : Fragment() {
         initView()
     }
     private fun initView(){
-        simulasiDataTeman()
-        tampilTeman()
+        simulasiDataJoki()
+        tampilJoki()
     }
 
     override fun onDestroy() {

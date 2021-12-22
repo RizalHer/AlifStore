@@ -36,8 +36,8 @@ class Ml : AppCompatActivity() {
             val intent  = Intent(Intent.ACTION_SEND)
             intent.setType("text/plain")
             intent.putExtra(Intent.EXTRA_TEXT, semuapesan)
-            intent.putExtra("jid", "085258022025" + "@s.whatsapp.net")
-            intent.setPackage("com.whatsapp")
+            intent.putExtra("jid", "085258022025" + "085258022025.whatsapp.net")
+            intent.setPackage(".com.whatsapp")
             startActivity(intent)
         }
     }

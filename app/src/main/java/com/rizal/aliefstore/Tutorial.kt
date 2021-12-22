@@ -7,8 +7,8 @@ import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_tutorial.*
 
 class Tutorial : AppCompatActivity() {
-    val menuTeks= arrayOf("Top Up", "Joki")
-    val menuIcon= arrayOf(R.drawable.ic_globe, R.drawable.ic_gift)
+    val menuTeks= arrayOf("Top Up", "Joki", "Penjoki")
+    val menuIcon= arrayOf(R.drawable.ic_globe, R.drawable.ic_gift, R.drawable.ic_star)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tutorial)
